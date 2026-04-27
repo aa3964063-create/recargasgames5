@@ -1,0 +1,15 @@
+<div class="mt-6 space-y-3">
+    <div class="relative">
+        <input type="text" id="campo-identificador" placeholder="ID DEL JUGADOR" class="input-field font-bold uppercase">
+        <button onclick="verificarID()" id="btn-verificar" class="absolute right-2 top-4 bg-blue-600 text-white px-3 py-1 rounded-lg text-[10px] font-bold">VERIFICAR</button>
+    </div>
+    <p id="nombre-verificado" class="text-blue-400 text-xs font-bold mt-1 ml-2 italic"></p>
+    
+    <input type="email" id="correo-roblox" placeholder="CORREO DE LA CUENTA" class="input-field font-bold hidden">
+    <div class="grid grid-cols-2 gap-2">
+        <input type="text" id="ref-pago" placeholder="REF (4 DÍG)" class="input-field" maxlength="4">
+        <input type="text" id="nombre-cliente" placeholder="TU NOMBRE" class="input-field">
+    </div>
+    <button onclick="finalizarYEnviar()" class="btn-action w-full py-5 mt-2 uppercase tracking-widest text-xs">Enviar Pedido <i class="fab fa-whatsapp ml-1"></i></button>
+</div>
+
